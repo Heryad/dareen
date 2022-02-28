@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Dareen Restaurant</title>
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="#4285f4">
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#4285f4">
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">  
+        <script src="./scripts/index.js"></script> 
+    </head>
+    <body onload="init();">
+        <img class="top-logo" src="./resources/logo.png">
+        <p style="margin-top: 300px;">Herzlichen Willkommen<br> wählen Sie eine Sprache bitte</p>
+        <select id="slLang">
+            <option value="de">Doutche</option>
+            <option value="ku">Kurdish</option>
+            <option value="ar">Arabic</option>
+        </select>
+        <button class="btnStart" id="btnStart" onclick="location.href = 'menu.html'">Menu</button>
+        <div class="social-media">
+            <img class="btnInstagram" src="./resources/instagram.png" id="btnInstagram">
+        </div>
+    </body>
+</html>
